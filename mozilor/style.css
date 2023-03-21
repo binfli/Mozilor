@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,200&display=swap');
+
+/*header styles start*/
+
+.container{
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-top: 2rem;
+}
+.header{
+   position: absolute;
+   width: 100%;
+   top: 0;
+   left: 0;
+}
+body{
+   width:100vw;
+   overflow-x:hidden;
+}
+
+.header-list{
+   display: flex; 
+   align-items: center;
+}
+.header-item{
+   margin-right: 3rem; 
+}
+.header-item:last-child{
+   margin-right: 0;
+}
+.header-link{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.5rem;
+color: #646A89;
+
+}
+.link{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem 2rem;
+   background: #BF0830;
+   border-radius: 6px;
+   color: #FFFFFF;
+}
+.page{
+   height: 100vh;
+   width: 100%;
+   background: url(/img/main.svg) ghostwhite no-repeat;
+   background-position: 100% 100%;
+}
+.page-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh;
+}
+.title{
+   font-weight: 800;
+   font-size: 3rem;
+   line-height: 4rem;
+   color: #1A2578;
+}
+.our{
+   font-weight: 400;
+   font-size: 1.2rem;
+   line-height: 2.5rem;
+   color: #484C63;
+   margin-top: 2rem;
+}
+
+.buttons{
+   display: flex;
+   align-items: center;
+   margin-top: 2rem;
+}
+.ton{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #BF0830;
+   border-radius: 6px;
+   width: 163px;
+   height: 52px;
+   color: #BF0830;
+}
+.ton-1{
+   margin-left: 1rem;
+}
+.but{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #BF0830;
+   border-radius: 6px;
+   width: 147px;
+   height: 52px;
+   color: #FFFFFF;
+}
+
+.page-img{
+   display: block;
+   width: 100%;
+}
+.users{
+   position:relative;
+   text-align: center;
+   color: #1A2578;
+   font-weight: 600;
+   font-size: 2rem;
+   line-height: 3.5rem;
+   margin-top: 5.5rem;  
+}
+.colortext{
+   color: #BF0830;
+}
+.logos{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 5rem;
+   cursor: pointer;
+}
+.line{
+   margin-top: 9rem;
+   text-align: center;
+   font-weight: 570;
+   font-size: 2.5rem;
+   line-height: 3.5rem;
+   color: #1A2578;
+}
+.help{
+   font-weight: 300;
+   font-size: 1rem;
+   line-height: 1.5rem;
+   text-align: center;
+
+   color: #484C63;
+}
+
+button{
+  background: none;
+}
+.button{
+  display: block;
+  width: 145px;
+  min-height: 47px;
+  color: #BF0830;
+  border: 1px solid #BF0830;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.block{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.cook{
+  width: 50%;
+  background: #fff;
+  padding: 5rem 1rem 0 4rem;
+  box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.08);
+border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  flex-direction: column;
+}
+
+.cook:last-child{
+   margin-left: 2rem;
+}
+
+.cook-img{
+   display: block;
+   width: 100%;
+}
+.creators{
+   
+
+   margin-top: 6rem;
+   background: url(./img/Frame\ 6654.svg) ghostwhite no-repeat;;
+   height: 100vh;
+   width: 100%;
+ 
+   background-position: 100% 50%;
+ 
+}
+
+.creators_content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+}
+.blockk{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 4rem;
+   flex-wrap: wrap;
+ }
+ 
+ .logoss{
+   width: 256px;
+   height: 119px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.08);
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .build{
+   height: 100vh;
+   width: 100%;
+   background: url(/img/build.svg) ghostwhite no-repeat;
+   background-position: 100% 50%;
+   margin-top: 6rem;
+}
+.build-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh;
+}
+/*footer style start*/
+.footer{
+   background-color: #0D123C;
+   
+}
